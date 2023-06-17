@@ -1,0 +1,112 @@
+.main-nav {
+    min-height: 3.3rem;
+    width: 100%;
+    margin: 0 auto;
+    border-top: solid 3px #ef8236;
+    box-shadow: 0px 1px 2px #00000033;
+    position: fixed;
+    z-index: 5;
+    top: 0%;
+    left: 0%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_div {
+    height: 10%;
+    min-width: 83%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main-logo {
+    padding: 0.7em 2px;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 0.3em;
+    color: rgba(69, 69, 69);
+    transition: 0.2s;
+    font-size: small;
+}
+
+.nav-item:hover {
+    background-color: rgb(226, 226, 226)
+}
+
+.nav-link-btn {
+    cursor: pointer;
+    border-radius: 2em;
+    padding: 0.4em 1.4em;
+}
+
+.search_bar {
+    min-width: 90%;
+    padding: 0.6em 1em 0.6em 2.3em;
+    font-size: 13px;
+    border: 1px solid #0000003e;
+}
+
+.nav_div form {
+    flex-grow: 1;
+    position: relative;
+}
+
+.nav_div .search-icon {
+    position: absolute;
+    left: 0.4em;
+    top: 0.5em;
+}
+
+.lg-btn,
+.logOut-btn {
+    padding: 0.4rem 0.6rem;
+    border: 1px solid hsl(205, 41%, 63%);
+    border-radius: 3px;
+    background-color: hsl(205, 46%, 92%);
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.lg-btn:hover,
+.logOut-btn:hover {
+    background-color: hsl(205, 57%, 81%);
+    color: hsl(205, 46%, 32%);
+}
+
+.rg-btn {
+    padding: 7px 0.5rem;
+    border: none;
+    background-color: hsl(206, 100%, 52%);
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.rg-btn:hover {
+    background-color: hsl(206, 100%, 40%);
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1400px) {
+    .nav-item-content .hide-item {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .nav_div {
+        min-width: 98%;
+    }
+
+    .search_bar {
+        min-width: 70%;
+    }
+}

@@ -1,0 +1,49 @@
+.left-bar {
+    width: 10rem;
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    height: auto;
+    top: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+    font-size: 13px;
+    position: sticky;
+}
+
+.left-nav {
+    height: auto;
+    max-width: 100%;
+    top: 2.5rem;
+    position: sticky;
+    margin: 2.5rem 0;
+    padding: 2.2rem 0;
+}
+
+.left-nav-div {
+    padding: 5px 0;
+}
+
+.left-nav-div div {
+    padding: 0 10px;
+}
+
+.left-nav-link {
+    text-decoration: none;
+    color: #3a3a3a;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    transition: 0.2s;
+}
+
+.side-nav-links:hover {
+    color: black;
+}
+
+.active {
+    font-weight: bolder;
+    color: black;
+    background-color: rgb(225, 225, 225);
+    border-right: solid 3px #ef8236;
+}

@@ -1,0 +1,133 @@
+.ask-ques-div {
+    min-height: 80vh;
+    margin-top: 3.6rem;
+    background-color: hsl(180deg 7.69% 97.45%);
+}
+
+.ask-ques-div>.ques-summary-div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+}
+
+@media screen and (min-width: 1050px) {
+    .heading-div {
+        background-image: url('../../assets/AskQuestionBg.svg');
+        height: 7.7rem;
+    }
+
+    .ask-ques-div>.ques-summary-div {
+        margin: 0 8.7rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .heading-div h1 {
+        font-size: 1.6rem;
+    }
+}
+
+.heading-div {
+    display: flex;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    align-items: center;
+}
+
+.heading-div h1 {
+    font-weight: 600;
+    font-size: 1.8em;
+}
+
+.ques-write-steps-div {
+    background-color: #ebf4fb;
+    border: 1px solid #a6ceed;
+    border-radius: 3px;
+    color: hsl(210, 8%, 25%);
+    padding: 1.4rem;
+    margin-top: 1rem;
+    width: 70%;
+}
+
+@media screen and (max-width: 1050px) {
+    .ques-write-steps-div {
+        width: 90%;
+    }
+}
+
+.ques-write-steps-div>p>span {
+    color: #0088da;
+}
+
+.ques-write-steps-div>h2 {
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.ques-write-steps-div>p {
+    margin: 7px 0;
+    font-size: 0.9rem;
+}
+
+.ques-write-steps-div>h5 {
+    font-weight: 600;
+    margin: 1rem 0 7px 0;
+}
+
+.ques-write-steps-div>ul {
+    margin: 0;
+    font-size: 13px;
+}
+
+.ask-ques-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 8.7rem;
+    width: 60.3%;
+}
+
+.ask-ques-form>form>.form-inner-div>.title-div,
+.body-div,
+.tags-div {
+    border: 1px solid hsl(210, 8%, 90%);
+    padding: 1.5rem;
+    margin-top: 1rem;
+}
+
+.form-inner-div p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.form-inner-div label {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.form-inner-div input,
+textarea {
+    font-family: "Roboto", sans-serif;
+    width: calc(100% - 20px);
+    padding: 9px;
+    resize: none;
+    margin-top: 6px;
+    border: 1px solid hsl(210, 8%, 75%);
+    border-radius: 3px;
+}
+
+.review-btn {
+    margin: 30px 0px;
+    padding: 10px;
+    background-color: #009dff;
+    border: solid 1px #009dff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.review-btn:hover {
+    background-color: #0086d8;
+}
